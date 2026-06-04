@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>DN60 Media - TikTok Creator &amp; Livestream Commerce MCN</title>
+<link href="./favicon.svg" rel="shortcut icon" type="image/svg+xml"/>
+<link href="./assets/css/style.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<meta content="DN60 Media là đơn vị quản lý và phát triển idol TikTok, creator livestream và TikTok Shop Affiliate với năng lực quảng cáo, mạng lưới kênh xã hội, đào tạo vận hành và quy trình tuân thủ nền tảng." name="description"/>
+<meta content="DN60 Media, TikTok MCN, TikTok Shop Partner, quản lý idol TikTok, TikTok Live, livestream bán hàng, creator affiliate, đào tạo creator" name="keywords"/>
+<style>
+/* DN60 Media custom refinement */
+:root { --section-padding: 58px; }
+html { scroll-behavior: smooth; }
+body { color: var(--dark-jungle-green); }
+.logo img { max-height: 54px; width: auto; }
+.hero-title, .section-title { letter-spacing: 0; }
+.hero-text, .about-text, .card-text, .section-text, .blog-summary, .features-card .card-desc { line-height: 1.65; }
+.header-bottom-actions-btn { text-decoration: none; color: inherit; }
+.header-top-btn, .btn { cursor: pointer; }
+.btn { border-radius: 6px; width: max-content; }
+.card-badge.green, .card-badge.orange { text-transform: none; letter-spacing: 0; }
+.property-card, .blog-card, .features-card { border-radius: 8px; overflow: hidden; }
+.property-card .card-list { align-items: flex-start; gap: 10px; }
+.property-card .card-item span { line-height: 1.35; }
+.property-card .card-footer-actions { display: none; }
+.features-list { gap: 16px; }
+.features-card { min-height: 160px; padding: 22px 16px; align-items: flex-start; text-align: left; }
+.features-card .card-icon { margin: 0; }
+.features-card .card-title { text-align: left; font-size: 1rem; }
+.features-card .card-desc { color: var(--cadet); font-size: var(--fs-6); }
+.mobile-short { display: none; }
+.features-card:is(:hover, :focus) .card-desc { color: var(--white); }
+.footer .footer-link[href^="#"] { cursor: pointer; }
+.hero-points { display: grid; gap: 8px; margin: 18px 0 24px; }
+.hero-point { display: flex; align-items: flex-start; gap: 10px; color: var(--cadet); font-size: var(--fs-5); }
+.hero-point ion-icon { color: var(--orange-soda); font-size: 18px; margin-top: 2px; }
+.about-proof { display: grid; gap: 10px; margin: 20px 0 24px; }
+.proof-item { background: var(--cultured-2); border-left: 3px solid var(--orange-soda); padding: 14px 16px; border-radius: 6px; }
+.proof-item strong { color: var(--dark-jungle-green); font-family: var(--ff-poppins); margin-bottom: 4px; }
+.proof-item span { color: var(--cadet); font-size: var(--fs-5); line-height: 1.55; }
+@media (max-width: 767px) {
+  :root { --section-padding: 30px; }
+  body { padding-bottom: 76px; }
+  .container { padding-inline: 18px; }
+  .header-top { display: none; }
+  .header-bottom { padding-block: 14px; }
+  .header-bottom .logo img { max-height: 44px; }
+  .header-bottom-actions { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; background: #fff; box-shadow: 0 -8px 24px rgba(0,0,0,.08); padding: 8px 10px; justify-content: space-around; }
+  .header-bottom-actions-btn { min-width: 64px; }
+  .hero { padding-top: 24px; }
+  .hero-content { margin-bottom: 18px; }
+  .hero-title { font-size: clamp(1.8rem, 7.2vw, 2.5rem); line-height: 1.08; margin-bottom: 14px; }
+  .hero-text { font-size: .95rem; line-height: 1.55; padding-left: 10px; margin-bottom: 14px; }
+  .mobile-long { display: none; }
+  .mobile-short { display: block; }
+  .hero-points { gap: 7px; margin-bottom: 18px; }
+  .hero-point { font-size: .86rem; line-height: 1.35; }
+  .hero-point:nth-child(3) { display: none; }
+  .section-subtitle { margin-inline: 0; max-width: 100%; width: fit-content; }
+  .section-title { --text-align: left; --margin-bottom: 16px; font-size: 1.35rem; line-height: 1.2; }
+  .about-banner, .hero-banner { display: none; }
+  .about-text { font-size: .95rem; line-height: 1.55; margin-bottom: 18px; }
+  .about-list { margin-bottom: 14px; }
+  .about-item { align-items: flex-start; }
+  .about-item-icon { height: 36px; min-width: 36px; }
+  .about-item-text { font-size: .92rem; line-height: 1.45; }
+  .proof-item { padding: 11px 12px; }
+  .proof-item span { font-size: .9rem; line-height: 1.45; }
+  .about .callout { padding: 13px 14px; margin-bottom: 0; line-height: 1.55; }
+  .has-scrollbar { display: grid; gap: 12px; overflow: visible; margin-inline: 0; padding: 0; scroll-snap-type: none; }
+  .has-scrollbar > li { min-width: 0; }
+  .property-card .card-content, .blog-content { padding: 14px 14px; }
+  .property-card .card-banner, .blog-card .card-banner { aspect-ratio: 16 / 7; }
+  .property-card .card-text, .blog-summary { font-size: .9rem; line-height: 1.5; margin-bottom: 14px; }
+  .property-card .card-title { margin-bottom: 8px; }
+  .property-card .card-list { row-gap: 6px; }
+  .property-card .card-item { font-size: .82rem; }
+  .card-footer { display: none; }
+  .features-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .features-list > li { width: auto; }
+  .features-card { min-height: 64px; padding: 10px; gap: 8px; box-shadow: var(--shadow-1); flex-direction: row; align-items: center; }
+  .features-card .card-icon { width: 30px; height: 30px; min-width: 30px; font-size: 16px; }
+  .features-card .card-title { font-size: .88rem; line-height: 1.25; }
+  .features-card .card-desc { display: none; }
+  .features-card .card-btn { display: none; }
+  .blog-card .card-meta-list { margin-bottom: 8px; gap: 10px; }
+  .blog-content-bottom { display: none; }
+  .footer-top { padding-top: 34px; padding-bottom: 24px; }
+  .footer-brand { margin-bottom: 24px; }
+}
+@media (min-width: 768px) {
+  .hero-points { grid-template-columns: repeat(3, 1fr); }
+  .about-proof { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 1200px) {
+  :root { --section-padding: 68px; }
+  .features-card .card-title { font-size: 1.1rem; }
+}
+</style>
+</head>
+<body>
+<header class="header" data-header="">
+<div class="overlay" data-overlay=""></div>
+<div class="header-top">
+<div class="container">
+<ul class="header-top-list">
+<li><a class="header-top-link" href="mailto:ctsach@dn60.vn"><ion-icon name="mail-outline"></ion-icon><span>ctsach@dn60.vn</span></a></li>
+<li><a class="header-top-link" href="#contact"><ion-icon name="location-outline"></ion-icon><address>Võ Dõng 2, Gia Kiệm, TP. Đồng Nai</address></a></li>
+</ul>
+<div class="wrapper">
+<ul class="header-top-social-list">
+<li><a class="header-top-social-link" href="#contact" aria-label="Facebook DN60 Media"><ion-icon name="logo-facebook"></ion-icon></a></li>
+<li><a class="header-top-social-link" href="#contact" aria-label="TikTok DN60 Media"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+</ul>
+<a aria-label="Liên hệ Zalo DN60 Media" class="header-top-btn" href="https://zalo.me/84946947188">Zalo</a>
+</div>
+</div>
+</div>
+<div class="header-bottom">
+<div class="container">
+<a class="logo" href="#home"><img alt="DN60 Media logo" src="./assets/images/logo.png"/></a>
+<nav class="navbar" data-navbar="">
+<div class="navbar-top">
+<a class="logo" href="#home"><img alt="DN60 Media logo" src="./assets/images/logo.png"/></a>
+<button aria-label="Đóng menu" class="nav-close-btn" data-nav-close-btn=""><ion-icon name="close-outline"></ion-icon></button>
+</div>
+<div class="navbar-bottom">
+<ul class="navbar-list">
+<li><a class="navbar-link" data-nav-link="" href="#home">Trang chủ</a></li>
+<li><a class="navbar-link" data-nav-link="" href="#about">Giới thiệu</a></li>
+<li><a class="navbar-link" data-nav-link="" href="#service">Năng lực MCN</a></li>
+<li><a class="navbar-link" data-nav-link="" href="#recruitment">Tuyển IDOL</a></li>
+<li><a class="navbar-link" data-nav-link="" href="#training">Đào tạo</a></li>
+<li><a class="navbar-link" data-nav-link="" href="#contact">Liên hệ</a></li>
+</ul>
+</div>
+</nav>
+<div class="header-bottom-actions">
+<a aria-label="Về trang chủ" class="header-bottom-actions-btn" href="#home"><ion-icon name="home-outline"></ion-icon><span>Trang chủ</span></a>
+<a aria-label="Xem năng lực MCN" class="header-bottom-actions-btn" href="#service"><ion-icon name="briefcase-outline"></ion-icon><span>Năng lực</span></a>
+<a aria-label="Liên hệ Zalo" class="header-bottom-actions-btn" href="https://zalo.me/84946947188"><ion-icon name="chatbubble-ellipses-outline"></ion-icon><span>Zalo</span></a>
+<button aria-label="Mở menu" class="header-bottom-actions-btn" data-nav-open-btn=""><ion-icon name="menu-outline"></ion-icon><span>Menu</span></button>
+</div>
+</div>
+</div>
+</header>
+<main>
+<article>
+<section class="hero" id="home">
+<div class="container">
+<div class="hero-content">
+<p class="hero-subtitle"><ion-icon name="sparkles-outline"></ion-icon><span>DN60 Media | TikTok Creator &amp; Livestream Commerce MCN</span></p>
+<h1 class="h1 hero-title">Quản lý idol TikTok, phát triển creator livestream và thương mại số</h1>
+<p class="hero-text mobile-long">DN60 Media tuyển chọn, đào tạo và vận hành creator cho TikTok Live, nội dung giải trí và TikTok Shop Affiliate. Lợi thế của chúng tôi là nguồn lực quảng cáo mạnh, hệ thống kênh mạng xã hội lớn và đội ngũ đồng hành giúp creator tăng nhận diện nhanh, làm việc chuyên nghiệp và tuân thủ nền tảng.</p>
+<p class="hero-text mobile-short">DN60 Media phát triển idol TikTok bằng đào tạo livestream, TikTok Shop Affiliate, quảng cáo và hệ thống social lớn.</p>
+<ul class="hero-points">
+<li class="hero-point"><ion-icon name="megaphone-outline"></ion-icon><span>Hỗ trợ quảng bá creator bằng ads và mạng lưới social sẵn có.</span></li>
+<li class="hero-point"><ion-icon name="videocam-outline"></ion-icon><span>Đào tạo livestream giải trí, bán hàng và quản trị phiên live.</span></li>
+<li class="hero-point"><ion-icon name="shield-checkmark-outline"></ion-icon><span>Định hướng nội dung an toàn, minh bạch, phù hợp chính sách TikTok.</span></li>
+</ul>
+<a class="btn" href="#recruitment">Đăng ký trở thành IDOL</a>
+</div>
+<figure class="hero-banner"><img alt="DN60 Media phát triển idol TikTok Live và TikTok Shop" class="w-100" src="./assets/images/home1.png"/></figure>
+</div>
+</section>
+<section class="about" id="about">
+<div class="container">
+<figure class="about-banner"><img alt="Đội ngũ DN60 Media quản lý và đào tạo idol TikTok" src="./assets/images/about1.png"/></figure>
+<div class="about-content">
+<p class="section-subtitle">Giới thiệu DN60 Media</p>
+<h2 class="h2 section-title">Đơn vị phát triển creator có định hướng rõ cho TikTok Live và TikTok Shop</h2>
+<p class="about-text">DN60 Media xây dựng mô hình MCN tập trung vào ba việc cốt lõi: tìm kiếm creator tiềm năng, đào tạo năng lực xuất hiện trước công chúng và kết nối creator với hoạt động thương mại phù hợp. Chúng tôi không chỉ tuyển idol để livestream, mà còn xây dựng lộ trình phát triển kênh, hình ảnh cá nhân, lịch nội dung và hiệu quả kinh doanh cho từng creator.</p>
+<ul class="about-list">
+<li class="about-item"><div class="about-item-icon"><ion-icon name="people-outline"></ion-icon></div><p class="about-item-text">Tuyển chọn và phân nhóm creator theo cá tính, kỹ năng giao tiếp, tệp khán giả và định hướng nội dung.</p></li>
+<li class="about-item"><div class="about-item-icon"><ion-icon name="school-outline"></ion-icon></div><p class="about-item-text">Đào tạo kịch bản live, tương tác người xem, giới thiệu sản phẩm, xử lý bình luận và tác phong chuyên nghiệp.</p></li>
+<li class="about-item"><div class="about-item-icon"><ion-icon name="analytics-outline"></ion-icon></div><p class="about-item-text">Theo dõi lịch live, hiệu suất nội dung, chỉ số tăng trưởng và phản hồi để tối ưu liên tục.</p></li>
+<li class="about-item"><div class="about-item-icon"><ion-icon name="shield-checkmark-outline"></ion-icon></div><p class="about-item-text">Nhắc nhở creator tuân thủ tiêu chuẩn cộng đồng, chính sách thương mại và nguyên tắc minh bạch khi bán hàng.</p></li>
+</ul>
+<div class="about-proof">
+<div class="proof-item"><strong>Phù hợp vai trò MCN</strong><span>Có quy trình quản lý, đào tạo, hỗ trợ vận hành và phát triển creator theo mục tiêu dài hạn.</span></div>
+<div class="proof-item"><strong>Mạnh về tăng trưởng</strong><span>Kết hợp quảng cáo trả phí, kênh social lớn và quảng bá chéo để giúp creator tiếp cận người xem nhanh hơn.</span></div>
+<div class="proof-item"><strong>Hướng tới commerce</strong><span>Phát triển livestream giải trí song song với TikTok Shop Affiliate, brand campaign và seller partnership.</span></div>
+</div>
+<p class="callout">DN60 Media mong muốn trở thành đối tác MCN có năng lực ươm tạo creator Việt Nam, vận hành livestream chất lượng và đóng góp tích cực cho hệ sinh thái TikTok Shop.</p>
+</div>
+</div>
+</section>
+<section class="property" id="recruitment">
+<div class="container">
+<p class="section-subtitle">Tuyển IDOL / Creator</p>
+<h2 class="h2 section-title">Cơ hội phát triển cùng DN60 Media</h2>
+<ul class="property-list has-scrollbar">
+<li><div class="property-card"><figure class="card-banner"><a href="#contact"><img alt="Creator mới bắt đầu với TikTok" class="w-100" src="./assets/images/property-1.jpg"/></a><div class="card-badge green">Creator mới</div><div class="banner-actions"><button class="banner-actions-btn"><ion-icon name="location-outline"></ion-icon><address>Online / Studio DN60</address></button><button class="banner-actions-btn"><ion-icon name="videocam-outline"></ion-icon><span>Live</span></button><button class="banner-actions-btn"><ion-icon name="logo-tiktok"></ion-icon><span>TikTok</span></button></div></figure><div class="card-content"><div class="card-price"><strong>01</strong> Bắt đầu</div><h3 class="h3 card-title"><a href="#contact">Không cần kinh nghiệm</a></h3><p class="card-text">Phù hợp với người có ngoại hình, giọng nói, cá tính, năng khiếu giao tiếp hoặc mong muốn thử sức với livestream. DN60 Media hướng dẫn từ xây hình ảnh, mở kênh, lên nội dung đến buổi live đầu tiên.</p><ul class="card-list"><li class="card-item"><strong>0đ</strong><ion-icon name="cash-outline"></ion-icon><span>Phí tham gia</span></li><li class="card-item"><strong>1:1</strong><ion-icon name="people-outline"></ion-icon><span>Kèm cặp</span></li><li class="card-item"><strong>Live</strong><ion-icon name="home-outline"></ion-icon><span>Tại nhà/Studio</span></li></ul></div><div class="card-footer"><div class="card-author"><figure class="author-avatar"><img alt="DN60 Media" class="w-100" src="./assets/images/author.jpg"/></figure><div><p class="author-name"><a href="#about">DN60 Media</a></p><p class="author-title">Creator Management</p></div></div></div></div></li>
+<li><div class="property-card"><figure class="card-banner"><a href="#contact"><img alt="TikTok Shop Affiliate" class="w-100" src="./assets/images/property-2.jpg"/></a><div class="card-badge orange">Livestream bán hàng</div><div class="banner-actions"><button class="banner-actions-btn"><ion-icon name="location-outline"></ion-icon><address>Online / Studio DN60</address></button><button class="banner-actions-btn"><ion-icon name="videocam-outline"></ion-icon><span>Live</span></button><button class="banner-actions-btn"><ion-icon name="logo-tiktok"></ion-icon><span>TikTok</span></button></div></figure><div class="card-content"><div class="card-price"><strong>02</strong> Commerce</div><h3 class="h3 card-title"><a href="#contact">TikTok Shop Affiliate</a></h3><p class="card-text">Creator được hỗ trợ chọn sản phẩm phù hợp, chuẩn bị nội dung giới thiệu, rèn kỹ năng chốt đơn và phối hợp với nhãn hàng/nhà bán hàng để tăng chuyển đổi trong video và livestream.</p><ul class="card-list"><li class="card-item"><strong>Shop</strong><ion-icon name="cube-outline"></ion-icon><span>Sản phẩm</span></li><li class="card-item"><strong>KPI</strong><ion-icon name="analytics-outline"></ion-icon><span>Rõ ràng</span></li><li class="card-item"><strong>Hoa hồng</strong><ion-icon name="wallet-outline"></ion-icon><span>Minh bạch</span></li></ul></div><div class="card-footer"><div class="card-author"><figure class="author-avatar"><img alt="DN60 Media" class="w-100" src="./assets/images/author.jpg"/></figure><div><p class="author-name"><a href="#about">DN60 Media</a></p><p class="author-title">TikTok Shop Affiliate</p></div></div></div></div></li>
+<li><div class="property-card"><figure class="card-banner"><a href="#contact"><img alt="Tăng trưởng người theo dõi" class="w-100" src="./assets/images/property-3.jpg"/></a><div class="card-badge green">Tăng trưởng fan</div><div class="banner-actions"><button class="banner-actions-btn"><ion-icon name="location-outline"></ion-icon><address>Online / Studio DN60</address></button><button class="banner-actions-btn"><ion-icon name="videocam-outline"></ion-icon><span>Live</span></button><button class="banner-actions-btn"><ion-icon name="logo-tiktok"></ion-icon><span>TikTok</span></button></div></figure><div class="card-content"><div class="card-price"><strong>03</strong> Growth</div><h3 class="h3 card-title"><a href="#contact">Quảng bá đa kênh</a></h3><p class="card-text">DN60 Media dùng nguồn lực quảng cáo và hệ thống kênh xã hội lớn để hỗ trợ creator tăng độ nhận diện, kéo người xem vào live, xây cộng đồng người theo dõi và duy trì lịch xuất hiện ổn định.</p><ul class="card-list"><li class="card-item"><strong>Fan</strong><ion-icon name="heart-outline"></ion-icon><span>Cộng đồng</span></li><li class="card-item"><strong>Ads</strong><ion-icon name="megaphone-outline"></ion-icon><span>Hỗ trợ</span></li><li class="card-item"><strong>Social</strong><ion-icon name="share-social-outline"></ion-icon><span>Đa kênh</span></li></ul></div><div class="card-footer"><div class="card-author"><figure class="author-avatar"><img alt="DN60 Media" class="w-100" src="./assets/images/author.jpg"/></figure><div><p class="author-name"><a href="#about">DN60 Media</a></p><p class="author-title">Growth Support</p></div></div></div></div></li>
+<li><div class="property-card"><figure class="card-banner"><a href="#contact"><img alt="Đội ngũ vận hành DN60 Media" class="w-100" src="./assets/images/property-4.jpg"/></a><div class="card-badge green">Vận hành dài hạn</div><div class="banner-actions"><button class="banner-actions-btn"><ion-icon name="location-outline"></ion-icon><address>Online / Studio DN60</address></button><button class="banner-actions-btn"><ion-icon name="videocam-outline"></ion-icon><span>Live</span></button><button class="banner-actions-btn"><ion-icon name="logo-tiktok"></ion-icon><span>TikTok</span></button></div></figure><div class="card-content"><div class="card-price"><strong>04</strong> Operation</div><h3 class="h3 card-title"><a href="#contact">Đồng hành chuyên nghiệp</a></h3><p class="card-text">Creator có đội ngũ hỗ trợ nội dung, kỹ thuật, lịch live, báo cáo hiệu suất và định hướng tuân thủ. Mục tiêu là phát triển ổn định, bền vững và tạo giá trị thật cho người xem.</p><ul class="card-list"><li class="card-item"><strong>Content</strong><ion-icon name="document-text-outline"></ion-icon><span>Kịch bản</span></li><li class="card-item"><strong>Tech</strong><ion-icon name="settings-outline"></ion-icon><span>Kỹ thuật</span></li><li class="card-item"><strong>Report</strong><ion-icon name="stats-chart-outline"></ion-icon><span>Theo dõi</span></li></ul></div><div class="card-footer"><div class="card-author"><figure class="author-avatar"><img alt="DN60 Media" class="w-100" src="./assets/images/author.jpg"/></figure><div><p class="author-name"><a href="#about">DN60 Media</a></p><p class="author-title">Live Operation</p></div></div></div></div></li>
+</ul>
+</div>
+</section>
+<section class="features" id="service">
+<div class="container">
+<p class="section-subtitle">Năng lực phù hợp TikTok MCN</p>
+<h2 class="h2 section-title">Những điểm DN60 Media có thể đóng góp cho hệ sinh thái TikTok</h2>
+<ul class="features-list">
+<li><a class="features-card" href="#contact"><div class="card-icon"><ion-icon name="rocket-outline"></ion-icon></div><h3 class="card-title">Ươm tạo creator</h3><p class="card-desc">Tuyển chọn, phân loại và xây lộ trình phát triển cho creator mới hoặc creator đã có nền tảng.</p><div class="card-btn"><ion-icon name="arrow-forward-outline"></ion-icon></div></a></li>
+<li><a class="features-card" href="#contact"><div class="card-icon"><ion-icon name="videocam-outline"></ion-icon></div><h3 class="card-title">Vận hành livestream</h3><p class="card-desc">Hỗ trợ kịch bản, bối cảnh, kỹ thuật, lịch live và quản trị chất lượng phiên live.</p><div class="card-btn"><ion-icon name="arrow-forward-outline"></ion-icon></div></a></li>
+<li><a class="features-card" href="#contact"><div class="card-icon"><ion-icon name="bag-handle-outline"></ion-icon></div><h3 class="card-title">TikTok Shop Affiliate</h3><p class="card-desc">Kết nối sản phẩm phù hợp, tối ưu nội dung bán hàng và theo dõi hiệu quả chuyển đổi.</p><div class="card-btn"><ion-icon name="arrow-forward-outline"></ion-icon></div></a></li>
+<li><a class="features-card" href="#contact"><div class="card-icon"><ion-icon name="git-network-outline"></ion-icon></div><h3 class="card-title">Kết nối seller/brand</h3><p class="card-desc">Làm cầu nối giữa creator, nhà bán hàng và nhãn hàng trong các chiến dịch thương mại.</p><div class="card-btn"><ion-icon name="arrow-forward-outline"></ion-icon></div></a></li>
+<li><a class="features-card" href="#contact"><div class="card-icon"><ion-icon name="megaphone-outline"></ion-icon></div><h3 class="card-title">Nguồn lực quảng cáo</h3><p class="card-desc">Hỗ trợ tăng nhận diện, kéo traffic và mở rộng tệp người xem cho creator tiềm năng.</p><div class="card-btn"><ion-icon name="arrow-forward-outline"></ion-icon></div></a></li>
+<li><a class="features-card" href="#contact"><div class="card-icon"><ion-icon name="share-social-outline"></ion-icon></div><h3 class="card-title">Hệ thống social lớn</h3><p class="card-desc">Quảng bá chéo qua nhiều kênh để tăng tốc độ tiếp cận và sự quan tâm tới idol.</p><div class="card-btn"><ion-icon name="arrow-forward-outline"></ion-icon></div></a></li>
+<li><a class="features-card" href="#contact"><div class="card-icon"><ion-icon name="school-outline"></ion-icon></div><h3 class="card-title">Đào tạo tăng trưởng</h3><p class="card-desc">Huấn luyện kỹ năng giao tiếp, giữ chân người xem, xây nội dung và phát triển cộng đồng.</p><div class="card-btn"><ion-icon name="arrow-forward-outline"></ion-icon></div></a></li>
+<li><a class="features-card" href="#contact"><div class="card-icon"><ion-icon name="shield-checkmark-outline"></ion-icon></div><h3 class="card-title">Tuân thủ nền tảng</h3><p class="card-desc">Định hướng creator làm nội dung tích cực, minh bạch và phù hợp quy định cộng đồng.</p><div class="card-btn"><ion-icon name="arrow-forward-outline"></ion-icon></div></a></li>
+</ul>
+</div>
+</section>
+<section class="blog" id="training">
+<div class="container">
+<p class="section-subtitle">Đào tạo &amp; vận hành</p>
+<h2 class="h2 section-title">Quy trình phát triển idol chuyên nghiệp</h2>
+<ul class="blog-list has-scrollbar">
+<li><div class="blog-card"><figure class="card-banner"><img alt="Định vị hình ảnh cá nhân" class="w-100" src="./assets/images/blog-1.png"/></figure><div class="blog-content"><div class="blog-content-top"><ul class="card-meta-list"><li><a class="card-meta-link" href="#contact"><ion-icon name="person"></ion-icon><span>DN60 Media</span></a></li><li><a class="card-meta-link" href="#contact"><ion-icon name="pricetags"></ion-icon><span>Chiến lược</span></a></li></ul><h3 class="h3 blog-title"><a href="#contact">Định vị hình ảnh cá nhân</a></h3><p class="card-text blog-summary">Xác định chân dung idol, phong cách giao tiếp, tuyến nội dung, tệp khán giả mục tiêu và nguyên tắc xuất hiện trên TikTok.</p></div><div class="blog-content-bottom"><div class="publish-date"><ion-icon name="calendar"></ion-icon><time datetime="2026-06-04">Quy trình cố định</time></div><a class="read-more-btn" href="#contact">Liên hệ tư vấn</a></div></div></div></li>
+<li><div class="blog-card"><figure class="card-banner"><img alt="Đào tạo livestream và bán hàng" class="w-100" src="./assets/images/blog-2.jpg"/></figure><div class="blog-content"><div class="blog-content-top"><ul class="card-meta-list"><li><a class="card-meta-link" href="#contact"><ion-icon name="person"></ion-icon><span>DN60 Media</span></a></li><li><a class="card-meta-link" href="#contact"><ion-icon name="pricetags"></ion-icon><span>Livestream</span></a></li></ul><h3 class="h3 blog-title"><a href="#contact">Đào tạo livestream &amp; bán hàng</a></h3><p class="card-text blog-summary">Rèn kỹ năng mở live, dẫn dắt câu chuyện, giữ nhịp tương tác, giới thiệu sản phẩm và xử lý tình huống trong phiên live.</p></div><div class="blog-content-bottom"><div class="publish-date"><ion-icon name="calendar"></ion-icon><time datetime="2026-06-04">Đào tạo thực hành</time></div><a class="read-more-btn" href="#contact">Liên hệ tư vấn</a></div></div></div></li>
+<li><div class="blog-card"><figure class="card-banner"><img alt="Quản lý tăng trưởng và tuân thủ" class="w-100" src="./assets/images/blog-3.jpg"/></figure><div class="blog-content"><div class="blog-content-top"><ul class="card-meta-list"><li><a class="card-meta-link" href="#contact"><ion-icon name="person"></ion-icon><span>DN60 Media</span></a></li><li><a class="card-meta-link" href="#contact"><ion-icon name="pricetags"></ion-icon><span>Vận hành</span></a></li></ul><h3 class="h3 blog-title"><a href="#contact">Quản lý tăng trưởng &amp; tuân thủ</a></h3><p class="card-text blog-summary">Theo dõi dữ liệu, tối ưu lịch live, điều chỉnh nội dung, báo cáo hiệu suất và nhắc nhở creator tuân thủ chính sách nền tảng.</p></div><div class="blog-content-bottom"><div class="publish-date"><ion-icon name="calendar"></ion-icon><time datetime="2026-06-04">Theo dõi liên tục</time></div><a class="read-more-btn" href="#contact">Liên hệ tư vấn</a></div></div></div></li>
+</ul>
+</div>
+</section>
+</article>
+</main>
+<footer class="footer" id="contact">
+<div class="footer-top">
+<div class="container">
+<div class="footer-brand">
+<a class="logo" href="#home"><img alt="DN60 Media logo" src="./assets/images/logo-light.png"/></a>
+<p class="section-text">DN60 Media quản lý idol TikTok Live/TikTok Shop, đào tạo creator, vận hành livestream giải trí - bán hàng và hỗ trợ tăng trưởng bằng quảng cáo, nội dung, dữ liệu.</p>
+<ul class="contact-list">
+<li><a class="contact-link" href="#contact"><ion-icon name="location-outline"></ion-icon><address>Võ Dõng 2, Gia Kiệm, TP. Đồng Nai</address></a></li>
+<li><a class="contact-link" href="tel:+84946947188"><ion-icon name="call-outline"></ion-icon><span>+84 946 947 188</span></a></li>
+<li><a class="contact-link" href="mailto:ctsach@dn60.vn"><ion-icon name="mail-outline"></ion-icon><span>ctsach@dn60.vn</span></a></li>
+</ul>
+<ul class="social-list">
+<li><a class="social-link" href="#contact" aria-label="Facebook DN60 Media"><ion-icon name="logo-facebook"></ion-icon></a></li>
+<li><a class="social-link" href="#contact" aria-label="TikTok DN60 Media"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+</ul>
+</div>
+<div class="footer-link-box">
+<ul class="footer-list">
+<li><p class="footer-list-title">Liên kết nhanh</p></li>
+<li><a class="footer-link" href="#about">Giới thiệu</a></li>
+<li><a class="footer-link" href="#service">Năng lực MCN</a></li>
+<li><a class="footer-link" href="#recruitment">Tuyển dụng IDOL</a></li>
+<li><a class="footer-link" href="#training">Đào tạo &amp; vận hành</a></li>
+<li><a class="footer-link" href="#contact">Liên hệ</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-bottom"><div class="container"><p class="copyright">© 2026 <a href="#home">DN60 Media</a>. All Rights Reserved</p></div></div>
+</footer>
+<script src="./assets/js/script.js"></script>
+<script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
